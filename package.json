@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.6",
+    "cors": "^2.8.6",
+    "ethers": "^6.16.0",
+    "express": "^4.22.1"
+  },
+  "name": "nft_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hardhat.config.js",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "hardhat": "^2.22.0"
+  },
+  "scripts": {
+    "backend": "node backend/server.js",
+    "chain": "npx hardhat node",
+    "compile": "npx hardhat compile",
+    "deploy:local": "npx hardhat run scripts/deploy.js --network localhost",
+    "test": "npx hardhat test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
